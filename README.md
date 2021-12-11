@@ -20,11 +20,16 @@ Age: Age of the patient;(Continuous — Although the recorded ages have been tru
 6.ECG report:resting electrocardiographic results
 
 7.thalach: maximum heart rate achieved
+
 8.exang: exercise induced angina (1 = yes; 0 = no)
+
 9.oldpeak:ST depression induced by exercise relative to rest
+
 10.thalach: maximum heart rate achieved
+
 11.Target variable to predict:
-10 year risk of developing coronary heart disease (CHD) — (binary: “1”, means “There is a risk”, “0” means “There is no risk”)
+
+
 # TOOL DEVELOPMENT
 The full code for this article can be found here. It is implemented in Python and different classification algorithms are used. Below is a brief description of the general approach that I employed:
 Data cleaning and pre-processing: Here I checked and dealt with missing and duplicate variables from the data set as these can grossly affect the performance of different machine learning algorithms (many algorithms do not tolerate missing data).
