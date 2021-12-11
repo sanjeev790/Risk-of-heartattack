@@ -13,9 +13,12 @@ Age: Age of the patient;(Continuous — Although the recorded ages have been tru
 2. chest pain:
 3.blood pressure:BP Meds: whether or not the patient was on blood pressure medication (Nominal)
 
-4. cholestrol:Tot Chol: total cholesterol level
-5. Information on (fasting blood sugar &gt; 120 mg/dl) (1 = true; 0 = false):
+4. cholestrol:Tot Chol total cholesterol level.
+
+5. Information on (fasting blood sugar &gt; 120 mg/dl) (1 = true; 0 = false)
+
 6.ECG report:resting electrocardiographic results
+
 7.thalach: maximum heart rate achieved
 8.exang: exercise induced angina (1 = yes; 0 = no)
 9.oldpeak:ST depression induced by exercise relative to rest
